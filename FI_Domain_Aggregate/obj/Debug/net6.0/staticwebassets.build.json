@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IPUle2M2tJOGlyUFFUuYkV3Z0rdBFlZqAB88JjLpEvY=",
+  "Hash": "8bBqTsjEkq9AV36GdBZMhO0Y2+mdOKq7JUDZZhUEHI0=",
   "Source": "FI_Domain_Aggregate",
   "BasePath": "_content/FI_Domain_Aggregate",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "FI_Domain_Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],

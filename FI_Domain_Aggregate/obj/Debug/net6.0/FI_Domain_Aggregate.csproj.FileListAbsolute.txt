@@ -34,3 +34,5 @@ C:\Users\jgome\source\repos\FI_Test\FI_Domain_Aggregate\obj\Debug\net6.0\FI_Doma
 C:\Users\jgome\source\repos\FI_Test\FI_Domain_Aggregate\obj\Debug\net6.0\refint\FI_Domain_Aggregate.dll
 C:\Users\jgome\source\repos\FI_Test\FI_Domain_Aggregate\obj\Debug\net6.0\FI_Domain_Aggregate.pdb
 C:\Users\jgome\source\repos\FI_Test\FI_Domain_Aggregate\obj\Debug\net6.0\ref\FI_Domain_Aggregate.dll
+C:\Users\jgome\source\repos\FI_Test\FI_Domain_Aggregate\bin\Debug\net6.0\FI_Domain_Aggregate.runtimeconfig.json
+C:\Users\jgome\source\repos\FI_Test\FI_Domain_Aggregate\obj\Debug\net6.0\FI_Domain_Aggregate.genruntimeconfig.cache

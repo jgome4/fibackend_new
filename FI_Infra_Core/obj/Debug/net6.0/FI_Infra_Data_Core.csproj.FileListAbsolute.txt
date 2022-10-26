@@ -38,3 +38,5 @@ C:\Users\jgome\source\repos\FI_Test\FI_Infra_Core\obj\Debug\net6.0\FI_Infra_Data
 C:\Users\jgome\source\repos\FI_Test\FI_Infra_Core\obj\Debug\net6.0\refint\FI_Infra_Data_Core.dll
 C:\Users\jgome\source\repos\FI_Test\FI_Infra_Core\obj\Debug\net6.0\FI_Infra_Data_Core.pdb
 C:\Users\jgome\source\repos\FI_Test\FI_Infra_Core\obj\Debug\net6.0\ref\FI_Infra_Data_Core.dll
+C:\Users\jgome\source\repos\FI_Test\FI_Infra_Core\bin\Debug\net6.0\FI_Infra_Data_Core.runtimeconfig.json
+C:\Users\jgome\source\repos\FI_Test\FI_Infra_Core\obj\Debug\net6.0\FI_Infra_Data_Core.genruntimeconfig.cache

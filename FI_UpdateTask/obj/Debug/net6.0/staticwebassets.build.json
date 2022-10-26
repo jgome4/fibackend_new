@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QbXfQ6Gm0q7YbsOt4A/rgjUMEUlxfrio6aXrpBKwfiQ=",
+  "Hash": "vJbzbdR7yJjtoSaUFvphwnOTfC2qWypPVvAkB+ezcdk=",
   "Source": "FI_UpdateTask",
   "BasePath": "_content/FI_UpdateTask",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "FI_Aplication_Aggregate",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -22,10 +22,10 @@
       "Version": 2,
       "Source": "FI_Aplication_Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -33,21 +33,10 @@
       "Version": 2,
       "Source": "FI_Aplication_Implementation",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
-    },
-    {
-      "Identity": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj",
-      "Version": 2,
-      "Source": "FI_Domain_Aggregate",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -55,10 +44,21 @@
       "Version": 2,
       "Source": "FI_Domain_Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    },
+    {
+      "Identity": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj",
+      "Version": 2,
+      "Source": "FI_Domain_Aggregate",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -66,10 +66,10 @@
       "Version": 2,
       "Source": "FI_Infra_Data_Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -77,10 +77,10 @@
       "Version": 2,
       "Source": "FI_Infra_Data_Implementation",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -88,10 +88,10 @@
       "Version": 2,
       "Source": "FI_Infra_Data_Repository",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -99,10 +99,10 @@
       "Version": 2,
       "Source": "FI_Infra_Tools_Aggregate",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -110,10 +110,10 @@
       "Version": 2,
       "Source": "FI_Infra_Tools_Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
@@ -121,10 +121,10 @@
       "Version": 2,
       "Source": "FI_Infra_Tools_Implementation",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],

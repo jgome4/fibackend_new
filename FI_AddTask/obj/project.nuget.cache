@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vY+ZRxUIUytnfsycsJZOvUbExLCM0pnZC164BCOVc0HdoouHQzBQ++WkHrQbXQ+LKEOA6msDFi+qrTVc8LiQbw==",
+  "dgSpecHash": "N2yyjvXOZsGvopnW9qD1knF10j97GLM6e+OibPgeTo1eLKStmi50GBvbQm2ks1qdTa62YwNgCNc+sbynVSpzhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_AddTask\\FI_AddTask.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\jgome\\.nuget\\packages\\elastic.apm.extensions.hosting\\1.18.0\\elastic.apm.extensions.hosting.1.18.0.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\elastic.apm.extensions.logging\\1.18.0\\elastic.apm.extensions.logging.1.18.0.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\jgome\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
@@ -20,6 +21,7 @@
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.9\\microsoft.entityframeworkcore.analyzers.6.0.9.nupkg.sha512",
+    "C:\\Users\\jgome\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.9\\microsoft.entityframeworkcore.design.6.0.9.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.9\\microsoft.entityframeworkcore.relational.6.0.9.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.9\\microsoft.entityframeworkcore.sqlserver.6.0.9.nupkg.sha512",
     "C:\\Users\\jgome\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

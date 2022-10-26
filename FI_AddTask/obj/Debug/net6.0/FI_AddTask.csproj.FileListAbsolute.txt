@@ -258,3 +258,5 @@ C:\Users\jgome\source\repos\FI_Test\FI_AddTask\obj\Debug\net6.0\refint\FI_AddTas
 C:\Users\jgome\source\repos\FI_Test\FI_AddTask\obj\Debug\net6.0\FI_AddTask.pdb
 C:\Users\jgome\source\repos\FI_Test\FI_AddTask\obj\Debug\net6.0\FI_AddTask.genruntimeconfig.cache
 C:\Users\jgome\source\repos\FI_Test\FI_AddTask\obj\Debug\net6.0\ref\FI_AddTask.dll
+C:\Users\jgome\source\repos\FI_Test\FI_AddTask\bin\Debug\net6.0\Humanizer.dll
+C:\Users\jgome\source\repos\FI_Test\FI_AddTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
