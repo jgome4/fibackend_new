@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "Ixcz4MQ/Aw7wiYbiO54Svfmf8vZ1ZauR+HSsTt9qank=",
+  "Source": "FI_Domain_Aggregate",
+  "BasePath": "_content/FI_Domain_Aggregate",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj",
+      "Version": 2,
+      "Source": "FI_Domain_Core",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

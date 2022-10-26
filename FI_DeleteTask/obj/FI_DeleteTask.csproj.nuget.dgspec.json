@@ -1,0 +1,914 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_DeleteTask\\FI_DeleteTask.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj",
+        "projectName": "FI_Aplication_Aggregate",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj",
+        "projectName": "FI_Aplication_Core",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Events_Domain\\FI_Aplication_Events_Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Events_Domain\\FI_Aplication_Events_Domain.csproj",
+        "projectName": "FI_Aplication_Events_Domain",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Events_Domain\\FI_Aplication_Events_Domain.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Events_Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj",
+        "projectName": "FI_Aplication_Implementation",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_DeleteTask\\FI_DeleteTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_DeleteTask\\FI_DeleteTask.csproj",
+        "projectName": "FI_DeleteTask",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_DeleteTask\\FI_DeleteTask.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_DeleteTask\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Events_Domain\\FI_Aplication_Events_Domain.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Events_Domain\\FI_Aplication_Events_Domain.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Implementation\\FI_Infra_Data_Implementation.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Implementation\\FI_Infra_Data_Implementation.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Implementation\\FI_Infra_Tools_Implementation.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Implementation\\FI_Infra_Tools_Implementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Elastic.Apm.AspNetCore": {
+              "target": "Package",
+              "version": "[1.18.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj",
+        "projectName": "FI_Domain_Core",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj",
+        "projectName": "FI_Domain_Aggregate",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj",
+        "projectName": "FI_Infra_Data_Core",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Implementation\\FI_Infra_Data_Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Implementation\\FI_Infra_Data_Implementation.csproj",
+        "projectName": "FI_Infra_Data_Implementation",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Implementation\\FI_Infra_Data_Implementation.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj",
+        "projectName": "FI_Infra_Data_Repository",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\FI_Infra_Data_Repository.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj"
+              },
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Core\\FI_Infra_Data_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj",
+        "projectName": "FI_Infra_Tools_Aggregate",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[19.211.0-preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj",
+        "projectName": "FI_Infra_Tools_Core",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\FI_Infra_Tools_Core.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Implementation\\FI_Infra_Tools_Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Implementation\\FI_Infra_Tools_Implementation.csproj",
+        "projectName": "FI_Infra_Tools_Implementation",
+        "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Implementation\\FI_Infra_Tools_Implementation.csproj",
+        "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj": {
+                "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Infra_Tools_Aggregate\\FI_Infra_Tools_Aggregate.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[19.211.0-preview, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

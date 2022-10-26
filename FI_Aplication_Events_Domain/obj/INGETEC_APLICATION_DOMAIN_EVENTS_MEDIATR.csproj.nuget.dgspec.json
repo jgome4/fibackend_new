@@ -1,0 +1,351 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR.csproj",
+        "projectName": "INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR",
+        "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR.csproj",
+        "packagesPath": "C:\\Users\\jorgegomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jorgegomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_AGGREGATES\\INGETEC_DOMAIN_AGGREGATES.csproj": {
+                "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_AGGREGATES\\INGETEC_DOMAIN_AGGREGATES.csproj"
+              },
+              "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_TOOLS_AGG\\INGETEC_INFRA_TOOLS_AGG.csproj": {
+                "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_TOOLS_AGG\\INGETEC_INFRA_TOOLS_AGG.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_AGGREGATES\\INGETEC_DOMAIN_AGGREGATES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_AGGREGATES\\INGETEC_DOMAIN_AGGREGATES.csproj",
+        "projectName": "INGETEC_DOMAIN_AGGREGATES",
+        "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_AGGREGATES\\INGETEC_DOMAIN_AGGREGATES.csproj",
+        "packagesPath": "C:\\Users\\jorgegomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_AGGREGATES\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jorgegomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_CORE\\INGETEC_DOMAIN_CORE.csproj": {
+                "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_CORE\\INGETEC_DOMAIN_CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_CORE\\INGETEC_DOMAIN_CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_CORE\\INGETEC_DOMAIN_CORE.csproj",
+        "projectName": "INGETEC_DOMAIN_CORE",
+        "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_CORE\\INGETEC_DOMAIN_CORE.csproj",
+        "packagesPath": "C:\\Users\\jorgegomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_DOMAIN_CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jorgegomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_LOGS\\INGETEC_INFRA_TOOLS_CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_LOGS\\INGETEC_INFRA_TOOLS_CORE.csproj",
+        "projectName": "INGETEC_INFRA_TOOLS_CORE",
+        "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_LOGS\\INGETEC_INFRA_TOOLS_CORE.csproj",
+        "packagesPath": "C:\\Users\\jorgegomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_LOGS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jorgegomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_TOOLS_AGG\\INGETEC_INFRA_TOOLS_AGG.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_TOOLS_AGG\\INGETEC_INFRA_TOOLS_AGG.csproj",
+        "projectName": "INGETEC_INFRA_TOOLS_AGG",
+        "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_TOOLS_AGG\\INGETEC_INFRA_TOOLS_AGG.csproj",
+        "packagesPath": "C:\\Users\\jorgegomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_TOOLS_AGG\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jorgegomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_LOGS\\INGETEC_INFRA_TOOLS_CORE.csproj": {
+                "projectPath": "C:\\Users\\jorgegomez\\source\\repos\\Gestiona_DDD\\INGETEC_INFRA_LOGS\\INGETEC_INFRA_TOOLS_CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[16.203.0-preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Version": 1,
+  "Hash": "Fa7WTzr7e701CSUeKn/UCzpc756lmpSX3hgdfh94G68=",
+  "Source": "FI_Infra_Data_Core",
+  "BasePath": "_content/FI_Infra_Data_Core",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj",
+      "Version": 2,
+      "Source": "FI_Domain_Aggregate",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    },
+    {
+      "Identity": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj",
+      "Version": 2,
+      "Source": "FI_Domain_Core",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elastic.Apm.AspNetCore" Version="1.18.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.24.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.24.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FI_Aplication_Aggregate\FI_Aplication_Aggregate.csproj" />
+    <ProjectReference Include="..\FI_Aplication_Core\FI_Aplication_Core.csproj" />
+    <ProjectReference Include="..\FI_Aplication_Events_Domain\FI_Aplication_Events_Domain.csproj" />
+    <ProjectReference Include="..\FI_Aplication_Implementation\FI_Aplication_Implementation.csproj" />
+    <ProjectReference Include="..\FI_Domain\FI_Domain_Core.csproj" />
+    <ProjectReference Include="..\FI_Domain_Aggregate\FI_Domain_Aggregate.csproj" />
+    <ProjectReference Include="..\FI_Infra_Core\FI_Infra_Data_Core.csproj" />
+    <ProjectReference Include="..\FI_Infra_Implementation\FI_Infra_Data_Implementation.csproj" />
+    <ProjectReference Include="..\FI_Infra_Repository\FI_Infra_Data_Repository.csproj" />
+    <ProjectReference Include="..\FI_Infra_Tools_Aggregate\FI_Infra_Tools_Aggregate.csproj" />
+    <ProjectReference Include="..\FI_Infra_Tools_Core\FI_Infra_Tools_Core.csproj" />
+    <ProjectReference Include="..\FI_Infra_Tools_Implementation\FI_Infra_Tools_Implementation.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

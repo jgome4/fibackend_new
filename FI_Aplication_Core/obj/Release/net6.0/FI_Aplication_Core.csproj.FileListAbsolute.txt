@@ -1,0 +1,15 @@
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\bin\Release\net6.0\FI_Aplication_Core.deps.json
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\bin\Release\net6.0\FI_Aplication_Core.dll
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\bin\Release\net6.0\FI_Aplication_Core.pdb
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.csproj.AssemblyReference.cache
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.AssemblyInfoInputs.cache
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.AssemblyInfo.cs
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.csproj.CoreCompileInputs.cache
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\scopedcss\bundle\FI_Aplication_Core.styles.css
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.dll
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\refint\FI_Aplication_Core.dll
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\FI_Aplication_Core.pdb
+C:\Users\jgome\source\repos\FI_Test\FI_Aplication_Core\obj\Release\net6.0\ref\FI_Aplication_Core.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FI_Aplication_Aggregate/1.0.0": {
+        "dependencies": {
+          "FI_Aplication_Core": "1.0.0"
+        },
+        "runtime": {
+          "FI_Aplication_Aggregate.dll": {}
+        }
+      },
+      "FI_Aplication_Core/1.0.0": {
+        "runtime": {
+          "FI_Aplication_Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FI_Aplication_Aggregate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FI_Aplication_Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

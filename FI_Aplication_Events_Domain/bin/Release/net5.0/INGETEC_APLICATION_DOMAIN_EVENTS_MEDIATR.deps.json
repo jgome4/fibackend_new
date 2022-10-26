@@ -1,0 +1,232 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR/1.0.0": {
+        "dependencies": {
+          "INGETEC_DOMAIN_AGGREGATES": "1.0.0",
+          "INGETEC_INFRA_TOOLS_AGG": "1.0.0",
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR.dll": {}
+        }
+      },
+      "MediatR/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {},
+      "Microsoft.NETCore.Platforms/6.0.0-preview.3.21201.4": {},
+      "Microsoft.Win32.Registry/6.0.0-preview.3.21201.4": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.3.21201.4",
+          "System.Security.Principal.Windows": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      },
+      "System.CodeDom/6.0.0-preview.3.21201.4": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      },
+      "System.Management/6.0.0-preview.3.21201.4": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.3.21201.4",
+          "Microsoft.Win32.Registry": "6.0.0-preview.3.21201.4",
+          "System.CodeDom": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      },
+      "System.Security.AccessControl/6.0.0-preview.3.21201.4": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.3.21201.4": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.20104"
+          }
+        }
+      },
+      "INGETEC_DOMAIN_AGGREGATES/1.0.0": {
+        "dependencies": {
+          "INGETEC_DOMAIN_CORE": "1.0.0",
+          "System.Management": "6.0.0-preview.3.21201.4"
+        },
+        "runtime": {
+          "INGETEC_DOMAIN_AGGREGATES.dll": {}
+        }
+      },
+      "INGETEC_DOMAIN_CORE/1.0.0": {
+        "runtime": {
+          "INGETEC_DOMAIN_CORE.dll": {}
+        }
+      },
+      "INGETEC_INFRA_TOOLS_AGG/1.0.0": {
+        "dependencies": {
+          "INGETEC_INFRA_TOOLS_CORE": "1.0.0"
+        },
+        "runtime": {
+          "INGETEC_INFRA_TOOLS_AGG.dll": {}
+        }
+      },
+      "INGETEC_INFRA_TOOLS_CORE/1.0.0": {
+        "runtime": {
+          "INGETEC_INFRA_TOOLS_CORE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "INGETEC_APLICATION_DOMAIN_EVENTS_MEDIATR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediatR/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "path": "mediatr/9.0.0",
+      "hashPath": "mediatr.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A==",
+      "path": "microsoft.extensions.logging.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5hurJj7AjVBhDMETeT2NUuU85cyfi7Ej6cNOAxmbQfS8j0oMqsu45YCcCGJYjaRX5egaUJSf2GxuB7BRvY8OTg==",
+      "path": "microsoft.netcore.platforms/6.0.0-preview.3.21201.4",
+      "hashPath": "microsoft.netcore.platforms.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7NCbQmeDPn4q7E2dpjRBARx1lXeRBng9In6HmcgvS08mZj0TzllgJPW5IdBtAD3GFHLzO/rXdLsLFh6qt8VUPg==",
+      "path": "microsoft.win32.registry/6.0.0-preview.3.21201.4",
+      "hashPath": "microsoft.win32.registry.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "System.CodeDom/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NgYlcyzgMXr+s1mM03tIlJLO43mx7OJAs58rvYC9hY5jFh5g+4CEC66c4eMMI9WqROM1sRhSeVvXM3PBV00ZLQ==",
+      "path": "system.codedom/6.0.0-preview.3.21201.4",
+      "hashPath": "system.codedom.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "System.Management/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2M3tN9cscS0kfoArmAw5ls44NfbcjJRoe/Jtm2/haBBPTTq54JIKiPB2FUEWum4VLgaWtxSYj403gxZGVPfk6w==",
+      "path": "system.management/6.0.0-preview.3.21201.4",
+      "hashPath": "system.management.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S8Ze/z6KsGH5jqNkv9bu4n9/4DEpvR3xiqlc4ReLvydtjqv3jehrRubhgBZ4tZF5JiEzB3OamS2P6KhLej+N/g==",
+      "path": "system.security.accesscontrol/6.0.0-preview.3.21201.4",
+      "hashPath": "system.security.accesscontrol.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/6.0.0-preview.3.21201.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5AS4X2959qqXjizwPySQcEL8KutU6CIFyjH2kvotto44aeF57Or3sIHkEK7U5yC4KuMWALSLTo3NWA/e+KLbSA==",
+      "path": "system.security.principal.windows/6.0.0-preview.3.21201.4",
+      "hashPath": "system.security.principal.windows.6.0.0-preview.3.21201.4.nupkg.sha512"
+    },
+    "INGETEC_DOMAIN_AGGREGATES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "INGETEC_DOMAIN_CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "INGETEC_INFRA_TOOLS_AGG/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "INGETEC_INFRA_TOOLS_CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

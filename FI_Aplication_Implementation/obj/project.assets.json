@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FI_Aplication_Aggregate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FI_Aplication_Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FI_Aplication_Aggregate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FI_Aplication_Aggregate.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FI_Aplication_Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FI_Aplication_Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FI_Aplication_Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FI_Domain_Aggregate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FI_Domain_Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FI_Domain_Aggregate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FI_Domain_Aggregate.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FI_Domain_Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FI_Domain_Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FI_Domain_Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "FI_Aplication_Aggregate/1.0.0": {
+      "type": "project",
+      "path": "../FI_Aplication_Aggregate/FI_Aplication_Aggregate.csproj",
+      "msbuildProject": "../FI_Aplication_Aggregate/FI_Aplication_Aggregate.csproj"
+    },
+    "FI_Aplication_Core/1.0.0": {
+      "type": "project",
+      "path": "../FI_Aplication_Core/FI_Aplication_Core.csproj",
+      "msbuildProject": "../FI_Aplication_Core/FI_Aplication_Core.csproj"
+    },
+    "FI_Domain_Aggregate/1.0.0": {
+      "type": "project",
+      "path": "../FI_Domain_Aggregate/FI_Domain_Aggregate.csproj",
+      "msbuildProject": "../FI_Domain_Aggregate/FI_Domain_Aggregate.csproj"
+    },
+    "FI_Domain_Core/1.0.0": {
+      "type": "project",
+      "path": "../FI_Domain/FI_Domain_Core.csproj",
+      "msbuildProject": "../FI_Domain/FI_Domain_Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FI_Aplication_Aggregate >= 1.0.0",
+      "FI_Aplication_Core >= 1.0.0",
+      "FI_Domain_Aggregate >= 1.0.0",
+      "FI_Domain_Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jgome\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj",
+      "projectName": "FI_Aplication_Implementation",
+      "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\FI_Aplication_Implementation.csproj",
+      "packagesPath": "C:\\Users\\jgome\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Implementation\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jgome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj": {
+              "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Aggregate\\FI_Aplication_Aggregate.csproj"
+            },
+            "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj": {
+              "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Aplication_Core\\FI_Aplication_Core.csproj"
+            },
+            "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj": {
+              "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain\\FI_Domain_Core.csproj"
+            },
+            "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj": {
+              "projectPath": "C:\\Users\\jgome\\source\\repos\\FI_Test\\FI_Domain_Aggregate\\FI_Domain_Aggregate.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

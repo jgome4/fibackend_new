@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FI_Aplication_Aggregate\FI_Aplication_Aggregate.csproj" />
+    <ProjectReference Include="..\FI_Aplication_Core\FI_Aplication_Core.csproj" />
+    <ProjectReference Include="..\FI_Domain\FI_Domain_Core.csproj" />
+    <ProjectReference Include="..\FI_Domain_Aggregate\FI_Domain_Aggregate.csproj" />
+  </ItemGroup>
+
+</Project>

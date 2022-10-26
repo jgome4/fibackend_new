@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TeamFoundationServer.Client" Version="19.211.0-preview" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FI_Infra_Tools_Core\FI_Infra_Tools_Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FI_Domain\FI_Domain_Core.csproj" />
+    <ProjectReference Include="..\FI_Infra_Tools_Aggregate\FI_Infra_Tools_Aggregate.csproj" />
+    <ProjectReference Include="..\FI_Infra_Tools_Core\FI_Infra_Tools_Core.csproj" />
+   
+  </ItemGroup>
+
+</Project>
